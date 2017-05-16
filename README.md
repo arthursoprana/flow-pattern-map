@@ -5,10 +5,12 @@ Please Contact to Dr. Ovadia Shoham by os@utulsa.edu or [Dr. Eduardo Pereyra](ht
 
 # Installation
 
-    set CONDA_FORCE_32BIT=1
-    conda env create
-    activate py3_32bit
-    
+* Download [miniconda](https://conda.io/miniconda.html) (python 3.X - 64bit).
+
+        set CONDA_FORCE_32BIT=1
+        conda env create
+        activate py3_32bit
+
 # Before using the notebook
 
 ## Disable Data Execution Prevention - DEP (Windows ONLY)
@@ -22,4 +24,5 @@ Please Contact to Dr. Ovadia Shoham by os@utulsa.edu or [Dr. Eduardo Pereyra](ht
 3. And don't forget to enable it back after using it (you may need to restart your machine),
 
         bcdedit.exe /set nx AlwaysOn
-    
+
+**NOTE**: Always remember to `set CONDA_FORCE_32BIT=1` before activating env.
