@@ -1,6 +1,6 @@
 ﻿from ipywidgets import widgets, Layout
 
-continuous_update = False
+continuous_update = True
 
 layout = Layout(width='50%', justify_content ='space-between',  align_content='space-around')
 
