@@ -6,8 +6,5 @@ Please Contact to [Dr. Eduardo Pereyra](https://www.researchgate.net/profile/Edu
 # Installation
 
 * Download [miniconda](https://conda.io/miniconda.html).
-* Call
-    ```
-    conda env create
-    conda activate flow-pattern-map
-    ```
+* Call `conda env create`
+* Activate the environment with `conda activate flow-pattern-map`
